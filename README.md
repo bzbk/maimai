@@ -26,9 +26,58 @@ https://www.aplaybox.com/details/model/k7TgDB1b5SeP
 
 - 统信 UOS家庭版 操作系统（Linux）
   https://www.chinauos.com/  
-  > 优秀的国产操作系统，使用wine和uegine
+  > 优秀的国产操作系统，可以使用wine和uegine兼容Windows和安卓。
   
 ## 部署方式
+
+### 安装 sox ，ffmpeg
+
+> $ sudo apt-get install -y portaudio19-dev python-pyaudio python3-pyaudio sox pulseaudio libsox-fmt-all ffmpeg  
+
+### 安装 swig
+
+> $ wget https://wzpan-1253537070.cos.ap-guangzhou.myqcloud.com/misc/swig-3.0.10.tar.gz  
+> $ tar xvf swig-3.0.10.tar.gz  
+> $ cd swig-3.0.10  
+> $ sudo apt-get -y update  
+> $ sudo apt-get install -y libpcre3 libpcre3-dev  
+> $ ./configure --prefix=/usr --without-clisp --without-maximum-compile-warnings  
+> $ make  
+> $ sudo make install  
+> $ sudo install -v -m755 -d /usr/share/doc/swig-3.0.10  
+> $ sudo cp -v -R Doc/* /usr/share/doc/swig-3.0.10  
+> $ sudo apt-get install -y libatlas-base-dev  
+> $ cd ..  
+
+### 安装 雪人（snowboy）
+
+>​ $ wget https://wzpan-1253537070.cos.ap-guangzhou.myqcloud.com/misc/snowboy.tar.bz2  
+> $ tar -xvjf snowboy.tar.bz2  
+> $ cd snowboy/swig/Python3  
+> $ make  
+> $ cp _snowboydetect.so <迈迈的根目录的绝对路径>  
+> $ cd ~/  
+
+
+### python 库部署
+
+> $ sudo apt install python3-pip  
+安装 PIP
+
+> $ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple  
+更换 清华PIP源
+
+> $ pip3 install pinyin  
+安装 拼音库
+
+> $ pip3 install pyaudio  
+安装 音频库
+
+> $ pip3 install pydub  
+安装 音频处理库
+
+
+
 
 
 ## 项目结构
