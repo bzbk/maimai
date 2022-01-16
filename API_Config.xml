@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 这是一个配置文件用于管理常用参数-->
+<Config>
+    <!-- 配置ASR-->
+    <ASR>
+        <!-- 配置自己的百度API_KEY -->
+        <AIP_KEY>s1d2kTIPTkolao**********</AIP_KEY>
+        <SECRET_KEY>Vfgl5WBqoGgQGAdpmvfDOBw**********</SECRET_KEY>
+        <CUID>********</CUID>
+        <!-- 访问的接口类型 -->
+        <DEV_PID>1537</DEV_PID>
+        <!-- 接口号 ： 普通话中文-->
+        <ASR_URL>http://vop.baidu.com/server_api</ASR_URL>
+        <!-- 百度接口地址-->
+        <SCOPE>audio_voice_assistant_get</SCOPE>
+        <RATE>16000</RATE>
+        <!-- 采用率-->
+    </ASR>
+    <!-- 配置本地信息-->
+    <local>
+        <!-- 天气查询需要的 物理位置-->
+        <gogf>
+            <provinces>陕西</provinces>
+            <city>西安</city>
+            <county>长安</county>
+        </gogf>
+        
+    </local>
+
+</Config>

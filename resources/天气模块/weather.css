@@ -1,0 +1,21 @@
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+p{
+    margin-left: 40px;
+}
+p#a1{
+    border-left:6px solid #2196F3;
+    background-color: #ddffff;
+    margin-left: 34px;
+    
+}
+
+a#temperature{
+    font-size: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
