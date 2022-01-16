@@ -37,25 +37,41 @@ https://www.aplaybox.com/details/model/k7TgDB1b5SeP
 ### 安装 swig
 
 > $ wget https://wzpan-1253537070.cos.ap-guangzhou.myqcloud.com/misc/swig-3.0.10.tar.gz  
+
 > $ tar xvf swig-3.0.10.tar.gz  
+
 > $ cd swig-3.0.10  
+
 > $ sudo apt-get -y update  
+
 > $ sudo apt-get install -y libpcre3 libpcre3-dev  
-> $ ./configure --prefix=/usr --without-clisp --without-maximum-compile-warnings  
-> $ make  
+
+> $ ./configure \-\-prefix=/usr \-\-without-clisp \-\-without-maximum-compile-warnings  
+
+> $ make
+
 > $ sudo make install  
+
 > $ sudo install -v -m755 -d /usr/share/doc/swig-3.0.10  
+
 > $ sudo cp -v -R Doc/* /usr/share/doc/swig-3.0.10  
+
 > $ sudo apt-get install -y libatlas-base-dev  
+
 > $ cd ..  
 
 ### 安装 雪人（snowboy）
 
 >​ $ wget https://wzpan-1253537070.cos.ap-guangzhou.myqcloud.com/misc/snowboy.tar.bz2  
+
 > $ tar -xvjf snowboy.tar.bz2  
+
 > $ cd snowboy/swig/Python3  
+
 > $ make  
+
 > $ cp _snowboydetect.so <迈迈的根目录的绝对路径>  
+
 > $ cd ~/  
 
 
