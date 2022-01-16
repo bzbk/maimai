@@ -6,6 +6,8 @@
 
  > 项目 __除__ snowboy离线唤醒模块 和 API调用模块（天气 和 语音转文字 asr） 以及 美术资源（音频，视频，模型等）等,之外均默认使用 __CC-0 开源协议__，作者放弃一切权利。美术资源权利归上海散爆网络所有。
 
+###### *第一次写MD文档，第一次用软件仓库，第一次使用开源协议。如有不妥之处往海涵，并及时提醒。万分感谢。
+
 #### 借鉴项目
 
 - snowboy 
@@ -20,13 +22,13 @@ https://www.bilibili.com/video/BV1Nt411w7FJ
 - 《云图计划》-迈迈
 https://www.aplaybox.com/details/model/k7TgDB1b5SeP
 
-* 第一次写MD文档以，第一次用软件仓库，第一次使用开源协议。如有不妥之处往海涵，并及时提醒。万分感谢。
+
  
 ## 运行环境
 
 - 统信 UOS家庭版 操作系统（Linux）
-  https://www.chinauos.com/  
-  > 优秀的国产操作系统，可以使用wine和uegine兼容Windows和安卓。
+https://www.chinauos.com/  
+> 优秀的国产操作系统，可以使用wine和uegine兼容Windows和安卓。
   
 ## 部署方式
 
