@@ -32,9 +32,41 @@ https://www.chinauos.com/
   
 ## 部署方式
 
+### 安装 python2 pyhton3 pip3
+
+> $ sudo apt install python  
+
+> $ sudo apt install python3
+
+> $ sudo apt install python3-pip  
+
+### python 库部署
+
+
+> $ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple  
+更换 清华PIP源
+
+> $ pip3 install pinyin  
+安装 拼音库
+
+> $ pip3 install pyaudio  
+安装 音频库
+
+> $ pip3 install pydub  
+安装 音频处理库
+
+
 ### 安装 sox ，ffmpeg
 
-> $ sudo apt-get install -y portaudio19-dev python-pyaudio python3-pyaudio sox pulseaudio libsox-fmt-all ffmpeg  
+> $ sudo apt-get install -y portaudio19-dev 
+
+> $ sudo apt-get install -y sox 
+
+> $ sudo apt-get install -y pulseaudio
+
+> $ sudo apt-get install -y libsox-fmt-all 
+
+> $ sudo apt-get install -y ffmpeg  
 
 ### 安装 swig
 
@@ -77,22 +109,7 @@ https://www.chinauos.com/
 > $ cd ~/  
 
 
-### python 库部署
 
-> $ sudo apt install python3-pip  
-安装 PIP
-
-> $ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple  
-更换 清华PIP源
-
-> $ pip3 install pinyin  
-安装 拼音库
-
-> $ pip3 install pyaudio  
-安装 音频库
-
-> $ pip3 install pydub  
-安装 音频处理库
 
 ## 项目结构
 
