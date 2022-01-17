@@ -46,6 +46,9 @@ https://www.chinauos.com/
 > $ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple  
 更换 清华PIP源
 
+> $ pip3 install requests  
+安装请求库
+
 > $ pip3 install pinyin  
 安装 拼音库
 
@@ -63,6 +66,10 @@ https://www.chinauos.com/
 > $ sudo apt-get install -y sox 
 
 > $ sudo apt-get install -y pulseaudio
+
+> $ sudo apt-get install -y python-pyaudio  
+
+> $ sudo apt-get install -y python3-pyaudio
 
 > $ sudo apt-get install -y libsox-fmt-all 
 
