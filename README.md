@@ -32,13 +32,17 @@ https://www.chinauos.com/
   
 ## 部署方式
 
+### 安装 git
+
+> $ sudo apt install -y git
+
 ### 安装 python2 pyhton3 pip3
 
-> $ sudo apt install python  
+> $ sudo apt install -y python  
 
-> $ sudo apt install python3
+> $ sudo apt install -y python3
 
-> $ sudo apt install python3-pip  
+> $ sudo apt install -y python3-pip  
 
 ### python 库部署
 
@@ -51,9 +55,6 @@ https://www.chinauos.com/
 
 > $ pip3 install pinyin  
 安装 拼音库
-
-> $ pip3 install pyaudio  
-安装 音频库
 
 > $ pip3 install pydub  
 安装 音频处理库
