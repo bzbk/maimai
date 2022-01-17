@@ -114,7 +114,7 @@ https://www.chinauos.com/
 
 > $ cp _snowboydetect.so <迈迈的根目录的绝对路径>  
 
-> $ cd ~/  
+> $ cd ../../..
 
 
 
